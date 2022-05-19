@@ -54,9 +54,22 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IfElseExample">
+  <component name="RunManager" selected="Application.IfElseIfElseExample">
     <configuration name="IfElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch4.IfElseExample" />
+      <module name="ThisIsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IfElseIfElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4.IfElseIfElseExample" />
       <module name="ThisIsJava" />
       <extension name="coverage">
         <pattern>
@@ -83,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IfElseIfElseExample" />
         <item itemvalue="Application.IfElseExample" />
         <item itemvalue="Application.IfExample" />
       </list>
