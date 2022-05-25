@@ -1,4 +1,4 @@
-package Ch6;
+package Ch5;
 
 public class Ex07 {
     public static void main(String[] args) {
