@@ -23,13 +23,16 @@ public class ex07 {
                     balance += deposit;
                     break;
                 case 2:
+                    //Refactoring code: using return early pattern
                     System.out.println("출금액> ");
                     int withdraw = scanner.nextInt();
                     if (balance - withdraw < 0) {
                         System.out.println("잔액이 부족해 출금할 수 없습니다.");
-                    } else {
-                        balance -= withdraw;
+                        break;
                     }
+
+                    balance -= withdraw;
+                    System.out.println("출금을 완료했습니다.");
                     break;
                 case 3:
                     System.out.println("잔고> " + balance);
