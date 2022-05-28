@@ -12,7 +12,7 @@ public class ShopService {
     private ShopService() { // 생성자를 외부에서 호출할 수 없도록 하려면 생성자 앞에 private 접근 제한자를 붙인다.
     }
     // 싱글톤 생성 3: 정적 메소드 생성
-    private static ShopService getInstance() { // 생성자 접근 막는대신 외부에서 클래스 호출할 수 있도록 정적 메소드인 getInstance()를 선언
+    public static ShopService getInstance() { // 생성자 접근 막는 대신 외부에서 클래스 호출할 수 있도록 정적 메소드인 getInstance()를 선언
         return shopService;// 정적 필드에서 참조하고 있는 자신의 객체를 리턴해준다.
     }
 }
