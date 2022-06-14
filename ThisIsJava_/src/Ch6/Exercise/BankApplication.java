@@ -2,8 +2,6 @@ package Ch6.Exercise;
 
 import java.util.Scanner;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
 public class BankApplication {
     private static BankAccount[] bankAccountArray = new BankAccount[100];
     private static Scanner scanner = new Scanner(System.in);
