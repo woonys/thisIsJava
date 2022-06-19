@@ -1,6 +1,6 @@
 package Ch10;
 
-public class ArrayIndexOutOfBoundsException {
+public class ArrayIndexOutOfBoundsException extends Throwable {
     public static void main(String[] args) {
         // main()에 들어가는 인자 args에는 어떤 실행 매개값도 주어지지 않았음.
 
