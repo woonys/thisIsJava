@@ -16,5 +16,10 @@ public class Member {
             }
         }
         return false; // 매개값이 Member 타입이 아니거나 id 필드값이 다른 경우 false를 리턴
+  }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
     }
 }
