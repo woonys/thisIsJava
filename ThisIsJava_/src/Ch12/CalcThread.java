@@ -6,7 +6,7 @@ public class CalcThread extends Thread{
     }
 
     public void run() { // 스레드가 실행할 내용
-        for (int i=0; i < 2_000_000_000; i++) {
+        for (int i=0; i < 2000000000; i++) {
         }
         System.out.println(getName());
     }
