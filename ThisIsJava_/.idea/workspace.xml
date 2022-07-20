@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55cc2280-3939-4f38-8701-547ee8948eda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThisIsJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch4/IfElseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4/IfElseExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="55cc2280-3939-4f38-8701-547ee8948eda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,6 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jaewoonkim/Documents/git/javaStudy/thisIsJava/ThisIsJava_&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,7 +46,33 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IfElseIfElseExample">
+  <component name="RunManager" selected="Application.BoxExample">
+    <configuration name="BoxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch13.BoxExample" />
+      <module name="ThisIsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch10.TryCatchFinallyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch10.TryCatchFinallyExample" />
+      <module name="ThisIsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IfElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch4.IfElseExample" />
       <module name="ThisIsJava" />
@@ -81,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch4.IfExample" />
+    <configuration name="TryCatchFinallyRuntimeExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch10.TryCatchFinallyRuntimeExceptionExample" />
       <module name="ThisIsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch4.*" />
+          <option name="PATTERN" value="Ch10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoxExample" />
+        <item itemvalue="Application.TryCatchFinallyRuntimeExceptionExample" />
+        <item itemvalue="Application.Ch10.TryCatchFinallyExample" />
         <item itemvalue="Application.IfElseIfElseExample" />
         <item itemvalue="Application.IfElseExample" />
-        <item itemvalue="Application.IfExample" />
       </list>
     </recent_temporary>
   </component>
