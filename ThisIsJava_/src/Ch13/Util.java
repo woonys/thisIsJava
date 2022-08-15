@@ -1,7 +1,5 @@
 package Ch13;
 
-import javafx.beans.binding.NumberBinding;
-
 public class Util {
     public static <T> Box<T> boxing(T t) {
         Box<T> box = new Box<>();

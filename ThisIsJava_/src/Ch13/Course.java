@@ -1,6 +1,5 @@
 package Ch13;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
 public class Course<T> {
     private String name;
