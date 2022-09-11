@@ -1,13 +1,19 @@
 package Ch15;
 
 public class Board {
-        String subject;
-        String content;
-        String writer;
+    private String title;
+    private String content;
 
-        public Board(String subject, String content, String writer) {
-                this.subject = subject;
-                this.content = content;
-                this.writer = writer;
-        }
+    public Board(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getContent() {
+        return content;
+    }
 }
