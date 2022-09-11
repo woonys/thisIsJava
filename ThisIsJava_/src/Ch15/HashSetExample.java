@@ -6,16 +6,16 @@ import java.util.Set;
 
 public class HashSetExample {
     public static void main(String[] args) {
-        Set<Student> set = new HashSet<>();
+        Set<Student2> set = new HashSet<>();
 
-        set.add(new Student(1, "홍길동"));
-        set.add(new Student(2, "신용권"));
-        set.add(new Student(1, "조민우"));
+        set.add(new Student2(1, "홍길동"));
+        set.add(new Student2(2, "신용권"));
+        set.add(new Student2(1, "조민우"));
 
-        Iterator<Student> iterator = set.iterator();
+        Iterator<Student2> iterator = set.iterator();
         while (iterator.hasNext()) {
-            Student student = iterator.next();
-            System.out.println(student.studentNum + ":" + student.name);
+            Student2 student2 = iterator.next();
+            System.out.println(student2.studentNum + ":" + student2.name);
         }
     }
 }

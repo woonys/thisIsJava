@@ -1,26 +1,22 @@
 package Ch15;
 
-public class Student {
-    public int studentNum;
-    public String name;
+import java.util.Comparator;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
-    public Student(int studentNum, String name) {
-        this.studentNum = studentNum;
-        this.name = name;
+public class Student implements Comparable<Student> {
+    public String id;
+    public int score;
+
+    public Student(String id, int score) {
+        this.id = id;
+        this.score = score;
     }
 
     @Override
-    public int hashCode() {
-        return studentNum;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if(obj instanceof Student) {
-            Student student = (Student) obj;
-            return student.studentNum == studentNum;
-        } else {
-            return false;
-        }
+    public int compareTo(Student o) {
+        if (score < o.score) return -1;
+        else if (score == o.score) return 0;
+        else return 1;
     }
 }
