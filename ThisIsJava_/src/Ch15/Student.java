@@ -1,25 +1,26 @@
 package Ch15;
 
-class Student {
-    public int sno;
+public class Student {
+    public int studentNum;
     public String name;
 
-    public Student(int sno, String name) {
-        this.sno = sno;
+    public Student(int studentNum, String name) {
+        this.studentNum = studentNum;
         this.name = name;
     }
 
-    public boolean equals(Object obj) { // 학번과 이름 동일할 경우 true 리턴
-        if (obj instanceof Student) {
+    @Override
+    public int hashCode() {
+        return studentNum;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Student) {
             Student student = (Student) obj;
-            return (sno == student.sno) && (name.equals(student.name));
+            return student.studentNum == studentNum;
         } else {
             return false;
         }
-    }
-
-    public int hashCode() {
-        //학번과 이름이 같다면 동일값 리턴
-        return sno + name.hashCode();
     }
 }
